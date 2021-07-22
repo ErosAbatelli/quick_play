@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:quick_play/models/LoginPage.dart';
+import 'package:quick_play/LoginPage.dart';
 import 'RegisterPage.dart';
 
 
