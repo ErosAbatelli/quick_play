@@ -1,13 +1,28 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
-class Register extends StatelessWidget {
+class PageOne extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
         body: Stack(
           children: <Widget>[
             Container(
+              width: MediaQuery
+                  .of(context)
+                  .size
+                  .width,
+              height: MediaQuery
+                  .of(context)
+                  .size
+                  .height,
+              decoration: BoxDecoration(
+                  image: new DecorationImage(
+                      fit: BoxFit.fill,
+                      image: new NetworkImage(
+                          "https://images.unsplash.com/photo-1489687432469-28bb82b8b397?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80")
+                  )
+              ),
               child: Container(
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
